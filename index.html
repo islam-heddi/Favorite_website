@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Favourite website
+        </h1>
+    </header>
+    <main>
+        <h1>Complete this :</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>Enter the name of the website : </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="name of the website" id="name-website">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter the url of the website : </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="url of the website" id="name-url">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="btn" onclick="add()">Submit</p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <span id="error">You have to fill them all</span>
+    </main>
+    <h1>Favourite Website :</h1> 
+    <div class="My-list" id="list">
+        <div class="item">
+            <h1 id="site">
+                Google
+            </h1>
+            <a href="http://google.com"><img src="visit.bmp" alt="visite the site"></a>
+        </div>
+    </div>
+</body>
+</html>
